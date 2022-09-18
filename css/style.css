@@ -1,0 +1,45 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    background-color: #aaa;
+    border-radius: 5px;
+}
+.container form input{
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+.box #show-data{
+    border-radius: 5px;
+    display: block;
+}
+#show-data >div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px auto;
+    border-bottom: 1px solid #aaa;
+    padding: 10px 0px;
+}
+#show-data >div >p{
+    margin: 0px;
+}
+.text-link{
+    display: flex;
+}
+.text-link a{
+    background-color: rgb(53, 161, 161);
+    padding: 0px 10px;
+    border-radius: 5px;
+}
+.text-link span{
+background-color: rgb(144, 41, 41);
+padding: 0px 10px;
+border-radius: 5px;
+}
