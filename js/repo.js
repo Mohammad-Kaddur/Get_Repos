@@ -34,6 +34,15 @@ function checkInput(e) {
           textAndLink.appendChild(theUrl);
           mainContainer.appendChild(textAndLink);
           showData.appendChild(mainContainer);
+           // Link For Web Site
+          let linkUrl = document.createElement("a");
+          let linkText = document.createTextNode("Link Website");
+          linkUrl.appendChild(linkText);
+          linkUrl.href = `https://${inputRepos.value}.github.io/${repository.name}`;
+          linkUrl.target = "_blank";
+          textAndLink.appendChild(linkUrl);
+          mainContainer.appendChild(textAndLink);
+          showData.appendChild(mainContainer);
           //   ### Stars
           let starSpan = document.createElement("span");
           let startText = document.createTextNode(
